@@ -1,6 +1,8 @@
 import "./App.css";
 import city from "./assets/city.jpg";
-import ManageData from "./components/ManageData";
+import ListRender from "./components/ListRender.jsx";
+import ManageData from "./components/ManageData.jsx";
+import ConditionalRender from "./components/ConditionalRender";
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
         {/* Imagem importada de src/assets */}
         <img src={city} alt="Cidade" />
       </div>
+      <ManageData/>
+      <ListRender/>
+      <ConditionalRender />
     </div>
   );
 }
