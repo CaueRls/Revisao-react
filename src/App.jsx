@@ -3,6 +3,7 @@ import city from "./assets/city.jpg";
 import ListRender from "./components/ListRender.jsx";
 import ManageData from "./components/ManageData.jsx";
 import ConditionalRender from "./components/ConditionalRender";
+import ShowUserName from "./components/ShowUserName";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <ManageData/>
       <ListRender/>
       <ConditionalRender />
+      <ShowUserName name="Matheus" />
     </div>
   );
 }
